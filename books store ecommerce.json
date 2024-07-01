@@ -1,0 +1,187 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "books store ecommerce",
+    "collectionId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+    "dateExported": "2024-07-01T16:05:57.404Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "0191b8e8-fd9a-4956-ba94-d720c8e63351",
+            "name": "users",
+            "containerId": "",
+            "created": "2024-07-01T15:06:19.886Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "books",
+            "containerId": "",
+            "created": "2024-07-01T15:07:07.826Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d7889de1-dbbb-4238-8527-88fbd979f959",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "0191b8e8-fd9a-4956-ba94-d720c8e63351",
+            "name": "profile",
+            "url": "http://localhost:3000/api/user/profile",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-01T15:05:34.033Z",
+            "modified": "2024-07-01T15:05:34.033Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTgzODQ1OSwiZXhwIjoxNzE5ODM5MzU5fQ.P2JXP0vHVkpMiNd7a1THoFOEDZfeBNh46Q-RlXUNefA"
+            }
+        },
+        {
+            "_id": "d3b5f76c-fa3d-4072-a930-bfe67eee4228",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "0191b8e8-fd9a-4956-ba94-d720c8e63351",
+            "name": "login",
+            "url": "http://localhost:3000/api/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-01T15:05:53.719Z",
+            "modified": "2024-07-01T15:05:53.719Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cbd8c5e9-4d6f-4906-8686-3e205af27db5",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "0191b8e8-fd9a-4956-ba94-d720c8e63351",
+            "name": "sign-up",
+            "url": "http://localhost:3000/api/user/sign-up",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-01T15:06:07.164Z",
+            "modified": "2024-07-01T15:06:07.164Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"email\": \"admin@gmail.com\",\n  \"password\": \"admin123\",\n  \"address\": \"defence\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "36363fb3-3e83-4ee2-8a59-8d7906867fd3",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "add book",
+            "url": "http://localhost:3000/api/book/add-book",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-01T15:07:34.693Z",
+            "modified": "2024-07-01T15:07:34.693Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"url\": \"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1587894153i/53265315.jpg\",\n  \"title\": \"react\",\n  \"author\": \"xyz\",\n  \"price\": \"299\",\n  \"desc\": \"Contains material related to react.js\",\n  \"language\": \"English\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        },
+        {
+            "_id": "bf96fce4-3943-4248-8232-574ff36d43cc",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "update book",
+            "url": "http://localhost:3000/api/book/update-book/6682bb5467fa431c610529fd",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-07-01T15:07:44.621Z",
+            "modified": "2024-07-01T15:07:44.621Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"author\": \"Asif Ahmed Khan\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        },
+        {
+            "_id": "9718ff13-5f80-4427-be92-1876679958d3",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "delete book",
+            "url": "http://localhost:3000/api/book/delete-book/6682c142d26a40d02179f135",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-07-01T15:07:59.281Z",
+            "modified": "2024-07-01T15:07:59.281Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        },
+        {
+            "_id": "1602002a-e93e-404c-8f51-c3f868bfaa20",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "all books",
+            "url": "http://localhost:3000/api/book/all-books",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-07-01T15:08:10.910Z",
+            "modified": "2024-07-01T15:08:10.910Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        },
+        {
+            "_id": "502406a5-8225-43ad-a85a-7e1248fc1f28",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "recent books",
+            "url": "http://localhost:3000/api/book/recent-books",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-07-01T15:08:23.636Z",
+            "modified": "2024-07-01T15:08:23.636Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        },
+        {
+            "_id": "cc42e2d3-1413-4b51-854c-ecd7fc11142b",
+            "colId": "9b00ed7e-f940-4037-be2c-651b68ac4657",
+            "containerId": "e53efee7-eae6-4f20-b137-59d62aa26ffc",
+            "name": "get single book",
+            "url": "http://localhost:3000/api/book/get-book/6682bb5467fa431c610529fd",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-07-01T15:08:33.444Z",
+            "modified": "2024-07-01T15:08:33.444Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODJhM2RmMzQ5ODAyOWIzM2U3ZWVjNCIsImlhdCI6MTcxOTg0NDYyOSwiZXhwIjoxNzE5ODQ1NTI5fQ.chEdjgopjKltQ6rpVf-Li3CZrV0kfQ0WB-VLWeIcsE0"
+            }
+        }
+    ],
+    "ref": "MPB3M6ObPOktQ5VtkWsjaWyfxx4u07nldRtgLgjlsmBmiyT6IkTqivlwMaXycdnuUViy_qsZ3SZPC14mqzWEJg"
+}
